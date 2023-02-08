@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:src="@drawable/photo"
+/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:text= " if you don’t spend a lot of time on the platform or aren’t looking for a job.
+
+But a good LinkedIn summary is crucial for career success. For salespeople, it can be a handy tool for social selling; for other professionals, it could be the gateway to a new career opportunity.
+
+Let’s go over the reasons you should most definitely write a LinkedIn summary"
+            android:textSize="20sp"
+
+            android:layout_marginTop="40dp"
+
+
+
+            />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:src="@drawable/photo"
+        />
+
+
+
+</LinearLayout>
